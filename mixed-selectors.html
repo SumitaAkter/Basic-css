@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Mixed selectors</title>
+    <style>
+        .green{
+            color: green;
+        }
+        .yellow-bg{
+            background-color: yellow;
+        }
+        /* common  background color for p and h3 */
+        /* p,h3{
+            color: blueviolet;
+        } */
+
+        .hot{
+            color: red;
+        }
+        li.hot{
+            font-weight: 700;
+        }
+        input{
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"]{
+           border: 2px solid purple;
+           border-radius: 5px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Mixed Selectors</h3>
+    <p>CSS = <span class="green">Casecading Style sheet</span></p>
+    <p>Purpose make website colorful</p>
+    <p class="hot">I am exploring CSS</p>
+    <p>I know how to add a color in a paragraph</p>
+    <p>My future hubby where are you?</p>
+    <h3>Different ways to apply styles</h3>
+    <h4>More heading</h4>
+    <input type="text">
+    <input type="password">
+    <ol>
+        <li class="hot">inline style</li>
+        <li><span class="green">Embedded</span> internal styles</li>
+        <li>external styles</li>
+    </ol> 
+    <!-- This is my First blog -->
+    <div class="yellow-bg">
+        <h3 >This is my blog</h3>
+        <p class="hot">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia pariatur, unde sit blanditiis, numquam, repellat illo officia cum delectus quis at rerum nihil esse eaque doloribus porro omnis praesentium ab fugiat ad. Temporibus esse consectetur eligendi eius? Vel, voluptatibus accusantium? Voluptatem, facilis! Nobis voluptates aperiam atque expedita eligendi molestias qui?</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto impedit odio ad ab. Est modi laborum temporibus aperiam nobis laboriosam vel ut incidunt facere veniam alias, architecto, aliquam accusantium soluta dolor commodi pariatur itaque dolores cumque. Odit, atque eveniet iste soluta, blanditiis officiis aliquam sequi beatae animi vero tenetur recusandae repudiandae laudantium quasi? Ullam provident obcaecati non voluptas officiis optio.</p>
+
+    </div>
+   
+</body>
+</html>
